@@ -180,8 +180,22 @@
   <section class="cta">
     <div class="cta-content">
       <div class="container">
-        <h2>Não fique de fora.<br>Baixe agora o app.</h2>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Baixe o aplicativo...</a>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Não fique de fora.<br>Baixe agora o app.</h2>
+                <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Baixe o aplicativo...</a>
+            </div>
+            <div class="col-md-6">
+              <form id="emailforms">
+                <div class="form-group">
+                  <label for="useremail">Deixe seu e-mail e receba primeiro todas as novidades.</label>
+                  <input type="text" class="form-control" id="useremail" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
+            </div>
+            <button type="submit" class="btn btn-primary">Confirme</button>
+                </div>
+            </div>
+        </div>
+        
       </div>
     </div>
     <div class="overlay"></div>
@@ -238,6 +252,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/new-age.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
 
 </body>
 
