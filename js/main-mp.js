@@ -20,6 +20,7 @@ function submitForm(e){
     var email = document.getElementById('useremail').value;
 
     saveEmail(email)
+    document.getElementById('useremail').value = "";
 }
 
 function saveEmail(email){
